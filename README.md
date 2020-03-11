@@ -55,10 +55,20 @@ For example, if a business sold the most luxurious products where only a small p
 - Linearity of independent variables and log odds (The independent variables are linearly related to the log odds)
 - Large sample size
 
-<img src = 'Screen4.png' width='350'>
+The diagram below illustrates the training set. The seperate regions (red and green) are called the predictive regions. The line that seperates the regions is called the predictive boundary, this being the logistic regressor which is a linear classifier. We will use the same regions to place the test set values to see how well the prediction performs as the model was trained on the training set (X_train, y_train). 
 
 <img src = 'Screen5.png' width='700'>
 
+The diagram below shows us how the logistic regression model performs for predicting the test set values.
+
 <img src = 'Screen6.png' width='700'>
+
+The confusion matrix below summarises the above diagram.
+
+<img src = 'Screen4.png' width='350'>
+
+From the confusion matrix, we conclude that our model has an accuracy of 89%.
+
+
 
 
