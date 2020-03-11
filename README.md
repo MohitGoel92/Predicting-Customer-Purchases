@@ -24,6 +24,12 @@ The diagram below shows a confusion matrix with the accuracy calculated.
 
 <img src = 'Screen1.png' width='700'>
 
+However, we should not rely on the confusion matrix as in some cases we can arrive at the incorrect conclusions.
+
+**Accuracy Paradox**
+
+
+
 ## Logistic Regression
 
 **Pros of Logistic Regression:**
