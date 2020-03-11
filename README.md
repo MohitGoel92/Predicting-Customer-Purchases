@@ -107,6 +107,8 @@ From the confusion matrix, we conclude that our model has an accuracy of 93%.
 
 ## Support Vector Machine
 
+The SVM algorithm looks at the very extreme cases, or in other words, the points that are near the boundary of the group, class or studied classification. This is used to construct the analysis which makes the SVM unique in comparison to other machine learning algorithms. At times, 
+
 <img src = 'Screen10.png' width='700'>
 
 <img src = 'Screen11.png' width='700'>
