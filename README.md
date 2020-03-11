@@ -28,7 +28,9 @@ However, we should not rely on the confusion matrix as in some cases we can arri
 
 **Accuracy Paradox**
 
+<img src = 'Screen2.png' width='700'>
 
+<img src = 'Screen3.png' width='700'>
 
 ## Logistic Regression
 
