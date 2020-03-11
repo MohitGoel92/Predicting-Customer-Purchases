@@ -75,6 +75,13 @@ The diagram below illustrates how the KNN algorithm works. We have two classes (
 
 <img src = 'Screenknn.png' width='500'>
 
+**Steps to perform the KNN algorithm**
+
+- Step 1: Choose the number k of neighbours (usually k = 5)
+- Step 2: Take the k nearest neighbours of the new data point, according to the euclidean distance.
+- Step 3: Among these k neighbours, count the number of data points in each category.
+- Step 4: Assign the new data point to the category where you counted the most neighbours. 
+
 **Pros of K Nearest Neighbours:**
 
 - Simple to understand
@@ -84,9 +91,17 @@ The diagram below illustrates how the KNN algorithm works. We have two classes (
 
 - Need to choose the number of neighbours (n_neighbors = k)
 
-
+The diagram below shows the KNN algorithm being trainined on the training set.
 
 <img src = 'Screen7.png' width='700'>
+
+The diagram below shows us how the KNN model performs for predicting the test set values. 
+
 <img src = 'Screen8.png' width='700'>
+
+The confusion matrix below summarises the above diagram.
+
 <img src = 'Screen9.png' width='350'>
+
+From the confusion matrix, we conclude that our model has an accuracy of 93%.
 
