@@ -113,8 +113,25 @@ The SVM algorithm looks at the very extreme cases, or in other words, the points
 
 The predictive boundary (or straight line) seperating the two classes is drawn equidistant between the two extreme vectors (points); we refer to them as "Support Vectors". We call this line the "Maximum Margin Hyperplane". The margin must be maximised in order for the resulting line to be the SVC. They're called vectors as, in the higher dimensions they will be referred to as vectors and not points. The two parallel margin hyperplanes are referred to as the "Positive Hyperplane" and "Negative Hyperplane", the order does not matter.  
 
+**Pros of SVM - Linear Kernel:**
+- Performant
+- Not biased by outliers
+- Not sensitive to overfitting
+
+**Cons of SVM - Linear Kernel:**
+- Not appropriate for non-linear problems
+- Not the best choice for a large number of features
+
+The diagram below shows the SVM being trainined on the training set.
+
 <img src = 'Screen10.png' width='700'>
+
+The diagram below shows how the SVM model performs for predicting the test set values.
 
 <img src = 'Screen11.png' width='700'>
 
+The confusion matrix below summarises the above diagram.
+
 <img src = 'Screen12.png' width='350'>
+
+From the confusion matrix, we conclude that our model has an accuracy of 90%.
