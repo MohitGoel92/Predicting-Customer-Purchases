@@ -55,4 +55,10 @@ For example, if a business sold the most luxurious products where only a small p
 - Linearity of independent variables and log odds (The independent variables are linearly related to the log odds)
 - Large sample size
 
+<img src = 'Screen4.png' width='700'>
+
+<img src = 'Screen5.png' width='700'>
+
+<img src = 'Screen6.png' width='700'>
+
 
