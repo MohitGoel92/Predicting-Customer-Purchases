@@ -111,7 +111,7 @@ The SVM algorithm looks at the very extreme cases, or in other words, the points
 
 <img src = 'Screen13.png' width='700'>
 
-The predictive boundary or line seperating the two classes is drawn equidistant between the two extreme vectors (points),  
+The predictive boundary (or straight line) seperating the two classes is drawn equidistant between the two extreme vectors (points); we refer to them as "Support Vectors". We call this line the "Maximum Margin Hyperplane". The margin must be maximised in order for the resulting line to be the SVC. They're called vectors as, in the higher dimensions they will be referred to as vectors and not points. The two parallel margin hyperplanes are referred to as the "Positive Hyperplane" and "Negative Hyperplane", the order does not matter.  
 
 <img src = 'Screen10.png' width='700'>
 
