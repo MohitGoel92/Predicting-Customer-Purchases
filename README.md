@@ -18,7 +18,7 @@ A type I error occurs when we have predicted a positive outcome (1 or yes) but i
 
 A type II error occurs when we have predicted a negative outcome (0 or no) but in reality it was positive (1 or yes), therefore an unexpected effect occuring. Type II errors are also referred to as "False Negatives".
 
-Type II errors are deemed more serious that type I errors. This is because there could be dire consequences if we have predicted an event such as an earthquake/disease not occuring, but in fact it did occur; leading to unnecessary injury and fatalities.
+Type II errors are deemed more serious than type I errors. This is because there could be dire consequences if we have predicted an event such as an earthquake/disease not occuring, but in fact it did occur; leading to unnecessary injury and fatalities.
 
 The diagram below shows a confusion matrix with the accuracy calculated.
 
