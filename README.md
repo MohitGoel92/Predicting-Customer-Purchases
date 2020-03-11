@@ -6,6 +6,16 @@ We currently work within the data science team of an automotive company, who sub
 
 We will be completing this business task using Logistic Regression, K Nearest Neighbours, Support Vector Machine, Naive Bayes, Classification Trees and XGBoost.
 
+### Confusion Matrix
+
+We will be evaluating our model performance by using the confusion matrix. 
+
+**Type I Error:**
+
+A type I error occurs when we have predicted a positive outcome (1 or yes) but in reality it was negative (0 or no), therefore predicting an effect that did not occur. Type I errors are also referred to as "False Positives".
+
+**Type II Error:**
+
 ## Logistic Regression
 
 **Pros of Logistic Regression:**
