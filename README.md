@@ -107,3 +107,8 @@ From the confusion matrix, we conclude that our model has an accuracy of 93%.
 
 ## Support Vector Machine
 
+<img src = 'Screen10.png' width='700'>
+
+<img src = 'Screen11.png' width='700'>
+
+<img src = 'Screen12.png' width='700'>
