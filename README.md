@@ -107,11 +107,11 @@ From the confusion matrix, we conclude that our model has an accuracy of 93%.
 
 ## Support Vector Machine - Linear Kernel
 
-The SVM algorithm looks at the very extreme cases, or in other words, the points that are near the boundary of the group, class or studied classification. This is used to construct the analysis which makes the SVM unique in comparison to other machine learning algorithms. The diagram below illustrates how the SVM will linearly seperate two classes
+The SVM algorithm looks at the very extreme cases, or in other words, the points that are near the boundary of the group, class or studied classification. This is used to construct the analysis which makes the SVM unique in comparison to other machine learning algorithms. The diagram below illustrates how the SVM will linearly seperate two classes.
 
-The predictive boundary or line seperating the two 
+<img src = 'Screen13.png' width='700'>
 
-<img src = 'Screen13.png' width='350'>
+The predictive boundary or line seperating the two classes is drawn equidistant between the two extreme vectors (points),  
 
 <img src = 'Screen10.png' width='700'>
 
