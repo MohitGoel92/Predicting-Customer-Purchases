@@ -71,7 +71,22 @@ From the confusion matrix, we conclude that our model has an accuracy of 89%.
 
 ## K Nearest Neighbours
 
+The diagram below illustrates how the KNN algorithm works. We have two classes (A and B) and a new point depicted by the red star. In the first scenario, if we choose the number of k-neighbours to be 3 we observe 2 points from class B and only one from class A, therefore the algorithm will classify the new point as class B. In the second scenario however, if we choose the number of k-neighbours to be 6 we observe 4 points belonging to class A and only 2 points belonging to class B, therefore classifying the new point as class A.
+
+<img src = 'Screenknn.png' width='500'>
+
+**Pros of K Nearest Neighbours:**
+
+- Simple to understand
+- Fast and efficient
+
+**Cons of K Nearest Neighbours:**
+
+- Need to choose the number of neighbours (n_neighbors = k)
+
+
+
 <img src = 'Screen7.png' width='700'>
 <img src = 'Screen8.png' width='700'>
 <img src = 'Screen9.png' width='350'>
-<img src = 'Screenknn.png' width='500'>
+
