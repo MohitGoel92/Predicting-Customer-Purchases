@@ -16,6 +16,10 @@ A type I error occurs when we have predicted a positive outcome (1 or yes) but i
 
 **Type II Error:**
 
+A type II error occurs when we have predicted a negative outcome (0 or no) but in reality it was positive (1 or yes), therefore an unexpected effect occuring. Type II errors are also referred to as "False Negatives".
+
+Type II errors are deemed more serious that type I errors. This is because there could be dire consequences if we have predicted an event such as an earthquake/disease not occuring, but in fact it did occur; leading to unnecessary injury and fatalities.  
+
 ## Logistic Regression
 
 **Pros of Logistic Regression:**
