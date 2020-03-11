@@ -105,3 +105,5 @@ The confusion matrix below summarises the above diagram.
 
 From the confusion matrix, we conclude that our model has an accuracy of 93%.
 
+## Support Vector Machine
+
