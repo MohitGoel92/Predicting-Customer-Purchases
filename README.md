@@ -150,7 +150,7 @@ Lets observe the dataset below. From inspection, we recognise that the data is n
 
 
 
-<img src = 'Screen19.png' width='700'>
+<img src = 'Screen19_1.png' width='700'>
 
 <img src = 'Screen20.png' width='700'>
 
