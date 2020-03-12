@@ -138,7 +138,7 @@ From the confusion matrix, we conclude that our model has an accuracy of 90%.
 
 ## Support Vector Machine - Gaussian RBF (Radial Basis Function) Kernel
 
-The diagrams below show a dataset which contains two classes, the first dataset being linearly seperable but the second not being linearly seperable. For the first case we may use either use Logistic Regression or SVM with a linear kernel, but for the second case this will fail. Therefore we may use models such as the SVM with the Gaussian RBF Kernel.
+The diagram below shows two datasets which contain two classes, the first dataset being linearly seperable and the second not being linearly seperable. For the first case we may either use Logistic Regression or SVM with a linear kernel, but for the second case this will fail. Therefore we may use models such as the SVM with the Gaussian RBF Kernel.
 
 <img src = 'Screen17.png' width='850'>
 
@@ -152,11 +152,11 @@ Let's shift the data points to left by 5 units (X-5), and then square the functi
 
 <img src = 'Screen21.png' width='700'>
 
-For a 2D plane, the data is transformed to a 3D plane and a "Maximum Margin Hyperplane" is used to linearly seperate the data. This is illustrated by the diagrams below. 
+For a 2D plane, the data is transformed to a 3D plane and a "Maximum Margin Hyperplane" is used to linearly seperate the data. This is illustrated by the diagram below. 
 
 <img src = 'Screen19_1.png' width='700'>
 
-The 3D space is then projected back to the original 2D plane, having our non-linear seperator in place. This is illustrated by the diagrams below.
+The 3D space is then projected back onto the original 2D plane, having our non-linear seperator in place. This is illustrated by the diagram below.
 
 <img src = 'Screen20.png' width='700'>
 
@@ -168,7 +168,7 @@ The diagram below illustrates the Gaussian RBF kernel K(x,l).
 
 <img src = 'Screen22.png' width='700'>
 
-The height of the tip is at the center of the plane (0,0) where the landmark l resides, and x being a point on the plane. Sigma (σ) is a fixed parameter that we have fixed earlier. 
+The height of the tip is at the center of the plane (0,0) where the landmark (l) resides, and x being a point on the plane. Sigma (σ) is a fixed parameter that we have fixed earlier. 
 
 
 <img src = 'Screen23.png' width='700'>
@@ -176,13 +176,13 @@ The height of the tip is at the center of the plane (0,0) where the landmark l r
 **Note**
 
 - The value of sigma (σ) is directly proportional to the size of the decision boundary. The predictive region therefore changes in accordance to sigma (σ).
-- ||x-l|| is the distance between the point and the landmark
+- || x-l || is the distance between the point and the landmark
 
-Therefore we do not perform any computations in the higher space. Although the curve is in 3D, we are computing in the 2D. 
+Therefore, we do not perform any computations in the higher space. Although the curve is in 3D, we are computing in the 2D. 
 
 <img src = 'Screen24.png' width='700'>
 
-The diagram below illustrates the seperation of the two non-linearly seperable classes and how it is formed by the Gaussian RBF kernel.  
+The diagram below demonstrates the seperation of the two non-linearly seperable classes and how it is formed by the Gaussian RBF kernel.  
 
 <img src = 'Screen25.png' width='700'>
 
@@ -197,8 +197,16 @@ The diagram below illustrates the seperation of the two non-linearly seperable c
 - Not the best choice for a large number of features
 - More complex than other models
 
+The diagram below shows the SVM being trainined on the training set.
+
 <img src = 'Screen14.png' width='700'>
+
+The diagram below shows how the SVM model performs for predicting the test set values.
 
 <img src = 'Screen15.png' width='700'>
 
+The confusion matrix below summarises the above diagram.
+
 <img src = 'Screen16.png' width='350'>
+
+From the confusion matrix, we conclude that our model has an accuracy of 93%.
