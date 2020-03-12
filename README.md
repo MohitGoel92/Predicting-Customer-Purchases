@@ -138,7 +138,11 @@ From the confusion matrix, we conclude that our model has an accuracy of 90%.
 
 ## Support Vector Machine - Gaussian RBF (Radial Basis Function) Kernel
 
+The diagrams below show a dataset which contains two classes, the first dataset being linearly seperable but the second not being linearly seperable. For the first case we may use either use Logistic Regression or SVM with a linear kernel, but for the second case this will fail. Therefore we may use models such as the SVM with the GausSian RBF Kernel.
+
 <img src = 'Screen17.png' width='850'>
+
+
 
 **Pros of SVM - Gaussian RBF Kernel**
 
