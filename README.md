@@ -154,7 +154,7 @@ Let's shift the data points to left by 5 units (X-5), and then square the functi
 
 For a 2D plane, the data is transformed to a 3D plane and a "Maximum Margin Hyperplane" is used to linearly seperate the data. This is illustrated by the diagram below. 
 
-<img src = 'Screen19_1.png' width='700'>
+<img src = 'Screen19_2.png' width='700'>
 
 The 3D space is then projected back onto the original 2D plane, having our non-linear seperator in place. This is illustrated by the diagram below.
 
