@@ -182,7 +182,7 @@ Therefore, we do not perform any computations in the higher space. Although the 
 
 <img src = 'Screen24.png' width='700'>
 
-The diagram below demonstrates the seperation of the two non-linearly seperable classes and how it is formed by the Gaussian RBF kernel.  
+The diagram below demonstrates the seperation of the two non-linearly seperable classes and how the seperation regions are formed by the Gaussian RBF kernel.  
 
 <img src = 'Screen25.png' width='700'>
 
