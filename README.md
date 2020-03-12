@@ -138,7 +138,7 @@ From the confusion matrix, we conclude that our model has an accuracy of 90%.
 
 ## Support Vector Machine - Gaussian RBF (Radial Basis Function) Kernel
 
-
+<img src = 'Screen17.png' width='850'>
 
 **Pros of SVM - Gaussian RBF Kernel**
 
@@ -151,4 +151,8 @@ From the confusion matrix, we conclude that our model has an accuracy of 90%.
 - Not the best choice for a large number of features
 - More complex than other models
 
+<img src = 'Screen14.png' width='700'>
 
+<img src = 'Screen15.png' width='700'>
+
+<img src = 'Screen16.png' width='700'>
