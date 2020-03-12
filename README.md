@@ -138,6 +138,8 @@ From the confusion matrix, we conclude that our model has an accuracy of 90%.
 
 ## Support Vector Machine - Gaussian RBF (Radial Basis Function) Kernel
 
+
+
 **Pros of SVM - Gaussian RBF Kernel**
 
 - High performance on non-linear problems
@@ -145,3 +147,8 @@ From the confusion matrix, we conclude that our model has an accuracy of 90%.
 - Not sensitive to overfitting
 
 **Cons of SVM - Gaussian RBF Kernel**
+
+- Not the best choice for a large number of features
+- More complex than other models
+
+
