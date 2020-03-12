@@ -155,4 +155,4 @@ From the confusion matrix, we conclude that our model has an accuracy of 90%.
 
 <img src = 'Screen15.png' width='700'>
 
-<img src = 'Screen16.png' width='700'>
+<img src = 'Screen16.png' width='350'>
