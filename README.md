@@ -160,7 +160,7 @@ The 3D space is then projected back to the original 2D plane, having our non-lin
 
 <img src = 'Screen20.png' width='700'>
 
-However, mapping to a higher dimensional space can be highly compute-intensive (demanding a lot a computation). We therefore use the kernel trick.
+However, mapping to a higher dimensional space can be highly compute-intensive (demanding a lot a computation); we therefore use the kernel trick.
 
 **The Kernel Trick**
 
