@@ -146,7 +146,7 @@ The diagrams below show a dataset which contains two classes, the first dataset 
 
 Lets observe the dataset below. From inspection, we recognise that the data is not linearly seperable.
 
-<img src = 'Screen18.png' width='400'>
+<img src = 'Screen18.png' width='600'>
 
 <img src = 'Screen21.png' width='700'>
 
