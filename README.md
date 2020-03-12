@@ -40,15 +40,15 @@ For example, if a business sold the most luxurious products where only a small p
 
 ## Logistic Regression
 
-**Pros of Logistic Regression:**
+**Pros of Logistic Regression**
 - Probabilistic approach
 - Gives information about statistical significance of features
 
-**Cons of Logistic Regression:**
+**Cons of Logistic Regression**
 
 - Logistic Regression assumptions
 
-**Assumptions of the Logistic Regression:**
+**Assumptions of the Logistic Regression**
 - Appropriate outcome structure (Binary logistic regression requires a binary dependent variable, and an ordinal logistic regression requires an ordinal dependent variable)
 - Observation independence (The observations are independent of each other)
 - Lack of multicollinearity (The independent variables should not be highly correlated with each other)
@@ -82,12 +82,12 @@ The diagram below illustrates how the KNN algorithm works. We have two classes (
 - Step 3: Among these k neighbours, count the number of data points in each category.
 - Step 4: Assign the new data point to the category where you counted the most neighbours. 
 
-**Pros of K Nearest Neighbours:**
+**Pros of K Nearest Neighbours**
 
 - Simple to understand
 - Fast and efficient
 
-**Cons of K Nearest Neighbours:**
+**Cons of K Nearest Neighbours**
 
 - Need to choose the number of neighbours (n_neighbors = k)
 
@@ -113,12 +113,12 @@ The SVM algorithm looks at the very extreme cases, or in other words, the points
 
 The predictive boundary (or straight line) seperating the two classes is drawn equidistant between the two extreme vectors (points); we refer to them as "Support Vectors". We call this line the "Maximum Margin Hyperplane". The margin must be maximised in order for the resulting line to be the SVC. They're called vectors as, in the higher dimensions they will be referred to as vectors and not points. The two parallel margin hyperplanes are referred to as the "Positive Hyperplane" and "Negative Hyperplane", the order does not matter.  
 
-**Pros of SVM - Linear Kernel:**
+**Pros of SVM - Linear Kernel**
 - Performant
 - Not biased by outliers
 - Not sensitive to overfitting
 
-**Cons of SVM - Linear Kernel:**
+**Cons of SVM - Linear Kernel**
 - Not appropriate for non-linear problems
 - Not the best choice for a large number of features
 
@@ -135,3 +135,13 @@ The confusion matrix below summarises the above diagram.
 <img src = 'Screen12.png' width='350'>
 
 From the confusion matrix, we conclude that our model has an accuracy of 90%.
+
+## Support Vector Machine - Gaussian RBF (Radial Basis Function) Kernel
+
+**Pros of SVM - Gaussian RBF Kernel**
+
+- High performance on non-linear problems
+- Not biased by outliers
+- Not sensitive to overfitting
+
+**Cons of SVM - Gaussian RBF Kernel**
