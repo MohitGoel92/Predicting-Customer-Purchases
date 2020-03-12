@@ -142,11 +142,17 @@ The diagrams below show a dataset which contains two classes, the first dataset 
 
 <img src = 'Screen17.png' width='850'>
 
+**Mapping to a higher-dimensional space**
+
+Lets observe the dataset below. From inspection, we recognise that the data is not linearly seperable.
+
 <img src = 'Screen18.png' width='700'>
 
-<img src = 'Screen19.png' width='350'>
 
-<img src = 'Screen20.png' width='350'>
+
+<img src = 'Screen19.png' width='700'>
+
+<img src = 'Screen20.png' width='700'>
 
 **Pros of SVM - Gaussian RBF Kernel**
 
