@@ -210,3 +210,20 @@ The confusion matrix below summarises the above diagram.
 <img src = 'Screen16.png' width='350'>
 
 From the confusion matrix, we conclude that our model has an accuracy of 93%.
+
+## Naive Bayes
+
+P(A\mid B)=\frac {P(B\mid A) \cdot P(A)}{P(B)}
+
+**Pros of Naive Bayes**
+
+- Efficient
+- Not biased by outliers
+- Works on linear and non-linear problems
+- Probabilistic approach
+
+**Cons of Naive Bayes**
+
+- Based on the assumption that features have the same statistical relevance
+
+P(A\mid B)=\frac {P(B\mid A) \cdot P(A)}{P(B)}
