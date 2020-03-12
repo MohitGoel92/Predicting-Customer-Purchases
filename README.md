@@ -164,11 +164,25 @@ However, mapping to a higher dimensional space can be highly compute-intensive (
 
 **The Kernel Trick**
 
+The diagram below illustrates the Gaussian RBF kernel K(x,l). 
+
 <img src = 'Screen22.png' width='700'>
+
+The height of the tip is at the center of the plane (0,0) where the landmark l resides, and x being a point on the plane. Sigma (σ) is a fixed parameter that we have fixed earlier. 
+
 
 <img src = 'Screen23.png' width='700'>
 
+**Note**
+
+- The value of sigma (σ) is directly proportional to the size of the decision boundary. The predictive region therefore changes in accordance to sigma (σ).
+- ||x-l|| is the distance between the point and the landmark
+
+Therefore we do not perform any computations in the higher space. Although the curve is in 3D, we are computing in the 2D. 
+
 <img src = 'Screen24.png' width='700'>
+
+The diagram below illustrates the seperation of the two non-linearly seperable classes and how it is formed by the Gaussian RBF kernel.  
 
 <img src = 'Screen25.png' width='700'>
 
