@@ -164,7 +164,13 @@ However, mapping to a higher dimensional space can be highly compute-intensive (
 
 **The Kernel Trick**
 
+<img src = 'Screen22.png' width='700'>
 
+<img src = 'Screen23.png' width='700'>
+
+<img src = 'Screen24.png' width='700'>
+
+<img src = 'Screen25.png' width='700'>
 
 **Pros of SVM - Gaussian RBF Kernel**
 
