@@ -148,11 +148,23 @@ Lets observe the dataset below. From inspection, we recognise that the data is n
 
 <img src = 'Screen18.png' width='600'>
 
+Let's shift the data points to left by 5 units (X-5), and then square the function. As the data will take a parabolic shape, we now observe the data being linearly seperable with a straight line as shown below. Thus, the data being linearly seperable in a higher-dimensional space. 
+
 <img src = 'Screen21.png' width='700'>
+
+For a 2D plane, the data is transformed to a 3D plane and a "Maximum Margin Hyperplane" is used to linearly seperate the data. This is illustrated by the diagrams below. 
 
 <img src = 'Screen19_1.png' width='700'>
 
+The 3D space is then projected back to the original 2D plane, having our non-linear seperator in place. This is illustrated by the diagrams below.
+
 <img src = 'Screen20.png' width='700'>
+
+However, mapping to a higher dimensional space can be highly compute-intensive (demanding a lot a computation). We therefore use the kernel trick.
+
+**The Kernel Trick**
+
+
 
 **Pros of SVM - Gaussian RBF Kernel**
 
