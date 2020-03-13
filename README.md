@@ -222,11 +222,26 @@ Naive Bayes is a probabalistic classifier that predicts which region or class a 
 - P(A) is the "Prior Probability"
 - P(B) is the "Marginal Likelihood"
 
-E.g. We have a sample of 30 people that have told us their salary, age and whether they walk or drive to work. We will observe a new point and by using the Naive Bayes classifier, we will probabilistically classify which class (predictive region) the new point belongs to. The diagram below is a scatter graph of this scenario and the new point is represented by the yellow star.
+E.g. We have a sample of 30 observations that have told us their salary, age and whether they walk or drive to work. We will observe a new point and by using Bayes theorem, we will probabilistically classify which class (predictive region) the new point belongs to. The diagram below is a scatter graph of this scenario and the new point is represented by the yellow star.
 
 <img src = 'Screen30_1.png' width='700'>
 
+We will need to compute the posterior probability P(Walks|X). As we only have two outcomes, we can state that P(Walks|X) = 1 
+- P(Drives|X). 
+
+P(Walks|X) = P(X|Walks) x P(Walks) / P(X)
+
+P(Walks) = The number of walkers / Total observations = 10/30 (prior probability)
+
+P(X) = The number of similar observations / Total observations (marginal likelihood)
+
+The diagram below illustrates the number of similar observations. As there are 4 observations in the circle, we state that P(X) = 4/30.
+
 <img src = 'Screen31_1.png' width='700'>
+
+P(X|Walks) = The number of similar observations among those who walk / Total number of walkers = 3/10 (likelihood)
+
+Therefore the posterior probability P(Walks|X) = (3/10 x 1/3)/(4/30) = 3/4. As P(Drives|X) = 1 - P(Walks|X) = 1/4, we conclude that the new observation will be predicted to be a walker.
 
 **Pros of Naive Bayes**
 
@@ -239,10 +254,17 @@ E.g. We have a sample of 30 people that have told us their salary, age and wheth
 
 - Based on the assumption that features have the same statistical relevance
 
+The diagram below shows the Naive Bayes being trainined on the training set.
+
 <img src = 'Screen26.png' width='700'>
+
+The diagram below shows how the Naive Bayes model performs for predicting the test set values.
 
 <img src = 'Screen27.png' width='700'>
 
+The confusion matrix below summarises the above diagram.
+
 <img src = 'Screen28.png' width='350'>
 
+From the confusion matrix, we conclude that our model has an accuracy of 93%.
 
