@@ -224,9 +224,9 @@ Naive Bayes is a probabalistic classifier that predicts which region or class a 
 
 E.g. We have a sample of 30 people that have told us their salary, age and whether they walk or drive to work. We will observe a new point and by using the Naive Bayes classifier, we will probabilistically classify which class (predictive region) the new point belongs to. The diagram below is a scatter graph of this scenario and the new point is represented by the yellow star.
 
-<img src = 'Screen30.png' width='700'>
+<img src = 'Screen30_1.png' width='700'>
 
-<img src = 'Screen31.png' width='700'>
+<img src = 'Screen31_1.png' width='700'>
 
 **Pros of Naive Bayes**
 
