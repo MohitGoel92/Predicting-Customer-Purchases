@@ -213,7 +213,9 @@ From the confusion matrix, we conclude that our model has an accuracy of 93%.
 
 ## Naive Bayes
 
-P(A\mid B)=\frac {P(B\mid A) \cdot P(A)}{P(B)}
+Naive Bayes is a probabalistic classifier that predicts which region or class a point belongs to on the basis of its probability. Naive Bayes uses Bayes theorem to decide how to classify a new point.  
+
+<img src = 'Screen26.png' width='350'>
 
 **Pros of Naive Bayes**
 
@@ -226,4 +228,8 @@ P(A\mid B)=\frac {P(B\mid A) \cdot P(A)}{P(B)}
 
 - Based on the assumption that features have the same statistical relevance
 
-P(A\mid B)=\frac {P(B\mid A) \cdot P(A)}{P(B)}
+<img src = 'Screen27.png' width='350'>
+
+<img src = 'Screen28.png' width='350'>
+
+<img src = 'Screen29.png' width='350'>
