@@ -243,6 +243,8 @@ P(X|Walks) = The number of similar observations among those who walk / Total num
 
 Therefore the posterior probability P(Walks|X) = (3/10 x 1/3)/(4/30) = 3/4. As P(Drives|X) = 1 - P(Walks|X) = 1/4, we conclude that the new observation will be predicted to be a walker.
 
+The reason why this method is called "Naive Bayes" is because Bayes theorem requires the assumption that the variables are independent. Bayes theorem is the foundation of the Naive Bayes machine learning algorithm. The variables are likely to have some correlation (i.e. Age and Salary, the older you are the more experience you are likely to have which results in a higher salary). But to assume they are independent is a fundamental requirement which means we are naive, thus Naive Bayes.
+
 **Pros of Naive Bayes**
 
 - Efficient
@@ -268,3 +270,4 @@ The confusion matrix below summarises the above diagram.
 
 From the confusion matrix, we conclude that our model has an accuracy of 93%.
 
+## Decision Tree 
