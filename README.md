@@ -278,7 +278,7 @@ Decision Trees are a very old method that became unpopular for a long time. Howe
 
 Decision Trees are simple but not powerful enough on their own. They're used in other methods that leverage their simplicity and create powerful machine learning algorithms. Some applications of these algorithms include facial recognition and interactive gaming such as Xbox Kinect and Nintendo Wii. Therefore, Decision Trees lie in the foundations of the more modern and powerful methods in machine learning.
 
-The diagram below illustrates an example of how the Decision Tree classifier works. The small segments are called "terminal leaves". The prediction boundaries are only composed of veritcal and horizontal lines.
+The diagram below illustrates an example of how the Decision Tree classifier works. The small segments are called "terminal leaves", and the prediction boundaries are only composed of veritcal and horizontal lines.
 
 <img src = 'Screen38.png' width='700'>
 
