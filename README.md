@@ -276,13 +276,13 @@ From the confusion matrix, we conclude that our model has an accuracy of 90%.
 
 Decision Trees are a very old method that became unpopular for a long time. However, it has now been reborn with new upgrades. These upgrades are additional methods that build upon decision trees, for instance, Random Forest and Gradient Boosting.
 
-Decision Trees are simple but not powerful enough on their own. They're used in other methods that leverage their simplicity and create powerful machine learning algorithms. Some applications of these algorithms include facial recognition and interactive gaming such as Xbox Kinect and Nintendo Wii. Therefore Decision Trees lie in the foundations of the more modern and powerful methods in machine learning.
+Decision Trees are simple but not powerful enough on their own. They're used in other methods that leverage their simplicity and create powerful machine learning algorithms. Some applications of these algorithms include facial recognition and interactive gaming such as Xbox Kinect and Nintendo Wii. Therefore, Decision Trees lie in the foundations of the more modern and powerful methods in machine learning.
 
-The diagram below illustrates an example of how the Decision Tree Regression works. The small segments are called "terminal leaves".
+The diagram below illustrates an example of how the Decision Tree classifier works. The small segments are called "terminal leaves". The prediction boundaries are only composed of veritcal and horizontal lines.
 
 <img src = 'Screen38.png' width='700'>
 
-The tree diagram below shows how each new point will be assigned a new predicted value.
+The tree diagram below shows how each new point will be assigned a class or predictive region.
 
 <img src = 'Screen39.png' width='700'> 
 
@@ -297,7 +297,7 @@ The tree diagram below shows how each new point will be assigned a new predicted
 - Poor results on too small datasets
 - Overfitting can easily occur
 
-The diagram below shows the Decision Tree being trained on the training set.
+The diagram below shows the Decision Tree being trained on the training set. From inspection, we can state that the model has overfit the dataset.
 
 <img src = 'Screen32.png' width='700'>
 
