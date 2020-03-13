@@ -268,6 +268,7 @@ The confusion matrix below summarises the above diagram.
 
 <img src = 'Screen28.png' width='350'>
 
-From the confusion matrix, we conclude that our model has an accuracy of 93%.
+From the confusion matrix, we conclude that our model has an accuracy of 90%.
 
 ## Decision Tree 
+
