@@ -272,3 +272,22 @@ From the confusion matrix, we conclude that our model has an accuracy of 90%.
 
 ## Decision Tree 
 
+CART: Classification and Regression Trees
+
+The diagram below illustrates an example of how the Decision Tree Regression works. The small segments are called "terminal leaves".
+
+We take the average of each terminal leaf and the value obtained will be the value predicted for any point that lands in that terminal leaf.
+
+The tree diagram below shows how each new point will be assigned a new predicted value.
+
+**Pros of Decision Tree Classification**
+
+- Interpretability
+- Feature scaling not necessary
+- Works on both linear and non-linear problems
+
+**Cons of Decision Tree Classification**
+
+- Poor results on too small datasets
+- Overfitting can easily occur
+
