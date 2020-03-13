@@ -243,7 +243,7 @@ P(X|Walks) = The number of similar observations among those who walk / Total num
 
 Therefore the posterior probability P(Walks|X) = (3/10 x 1/3)/(4/30) = 3/4. As P(Drives|X) = 1 - P(Walks|X) = 1/4, we conclude that the new observation will be predicted to be a walker.
 
-This method is named "Naive Bayes" due to Bayes theorem requiring the assumption that the variables are independent. Bayes theorem is the foundation of the Naive Bayes machine learning algorithm. The variables are likely to have some correlation (i.e. Age and Salary, the older you are the more experience you are likely to have which results in a higher salary). But to assume they are independent is a fundamental requirement which means we are naive, thus Naive Bayes.
+This method is named "Naive Bayes" due to Bayes theorem requiring the assumption of variable independence. Bayes theorem is the foundation of the Naive Bayes machine learning algorithm. The variables are likely to have some correlation (i.e. Age and Salary, the older you are the more experience you are likely to have which results in a higher salary). But to assume they are independent is a fundamental requirement which means we are naive, thus Naive Bayes.
 
 **Pros of Naive Bayes**
 
