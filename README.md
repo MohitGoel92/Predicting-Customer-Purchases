@@ -311,6 +311,4 @@ The confusion matrix below summarises the above diagram.
 
 From the confusion matrix, we conclude that our model has an accuracy of 91%.
 
-## Random Forest
-
-
+## Random Forest
