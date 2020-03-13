@@ -272,23 +272,19 @@ From the confusion matrix, we conclude that our model has an accuracy of 90%.
 
 ## Decision Tree 
 
-CART: Classification and Regression Trees
+**CART:** Classification and Regression Trees
 
 Decision Trees are a very old method that became unpopular for a long time. However, it has now been reborn with new upgrades. These upgrades are additional methods that build upon decision trees, for instance, Random Forest and Gradient Boosting.
 
-Decision Trees are simply but not powerful enough on their own. They're used in other methods that leverage their simplicity and create powerful learning algorithms. Some applications of these algorithms include facial recognition and interactive gaming such as Xbox Kinect and Nintendo Wii. Therefore Decision Trees lie in the foundations of the more modern and powerful methods in machine learning.
+Decision Trees are simple but not powerful enough on their own. They're used in other methods that leverage their simplicity and create powerful machine learning algorithms. Some applications of these algorithms include facial recognition and interactive gaming such as Xbox Kinect and Nintendo Wii. Therefore Decision Trees lie in the foundations of the more modern and powerful methods in machine learning.
 
 The diagram below illustrates an example of how the Decision Tree Regression works. The small segments are called "terminal leaves".
 
-<img src = 'Screen35.png' width='700'>
-
-We take the average of each terminal leaf and the value obtained will be the value predicted for any point that lands in that terminal leaf.
-
-<img src = 'Screen36.png' width='700'>
+<img src = 'Screen38.png' width='700'>
 
 The tree diagram below shows how each new point will be assigned a new predicted value.
 
-<img src = 'Screen37.png' width='700'> 
+<img src = 'Screen39.png' width='700'> 
 
 **Pros of Decision Tree Classification**
 
