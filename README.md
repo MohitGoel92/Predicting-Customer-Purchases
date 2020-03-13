@@ -291,3 +291,14 @@ The tree diagram below shows how each new point will be assigned a new predicted
 - Poor results on too small datasets
 - Overfitting can easily occur
 
+<img src = 'Screen32.png' width='700'>
+
+<img src = 'Screen33.png' width='700'>
+
+<img src = 'Screen34.png' width='350'>
+
+<img src = 'Screen35.png' width='700'>
+
+<img src = 'Screen36.png' width='700'>
+
+<img src = 'Screen37.png' width='700'> 
