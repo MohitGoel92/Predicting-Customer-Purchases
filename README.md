@@ -226,8 +226,8 @@ E.g. We have a sample of 30 observations that have told us their salary, age and
 
 <img src = 'Screen30_1.png' width='700'>
 
-We will need to compute the posterior probability P(Walks|X). As we only have two outcomes, we can state that P(Walks|X) = 1 
-- P(Drives|X). 
+We will need to compute the posterior probability P(Walks|X). As we only have two outcomes, we can state that 
+P(Walks|X) = 1 - P(Drives|X). 
 
 P(Walks|X) = P(X|Walks) x P(Walks) / P(X)
 
