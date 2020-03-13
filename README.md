@@ -256,7 +256,7 @@ This method is named "Naive Bayes" due to Bayes theorem requiring the assumption
 
 - Based on the assumption that features have the same statistical relevance
 
-The diagram below shows the Naive Bayes being trainined on the training set.
+The diagram below shows the Naive Bayes being trained on the training set.
 
 <img src = 'Screen26.png' width='700'>
 
@@ -274,11 +274,21 @@ From the confusion matrix, we conclude that our model has an accuracy of 90%.
 
 CART: Classification and Regression Trees
 
+Decision Trees are a very old method that became unpopular for a long time. However, it has now been reborn with new upgrades. These upgrades are additional methods that build upon decision trees, for instance, Random Forest and Gradient Boosting.
+
+Decision Trees are simply but not powerful enough on their own. They're used in other methods that leverage their simplicity and create powerful learning algorithms. Some applications of these algorithms include facial recognition and interactive gaming such as Xbox Kinect and Nintendo Wii. Therefore Decision Trees lie in the foundations of the more modern and powerful methods in machine learning.
+
 The diagram below illustrates an example of how the Decision Tree Regression works. The small segments are called "terminal leaves".
+
+<img src = 'Screen35.png' width='700'>
 
 We take the average of each terminal leaf and the value obtained will be the value predicted for any point that lands in that terminal leaf.
 
+<img src = 'Screen36.png' width='700'>
+
 The tree diagram below shows how each new point will be assigned a new predicted value.
+
+<img src = 'Screen37.png' width='700'> 
 
 **Pros of Decision Tree Classification**
 
@@ -291,14 +301,16 @@ The tree diagram below shows how each new point will be assigned a new predicted
 - Poor results on too small datasets
 - Overfitting can easily occur
 
+The diagram below shows the Decision Tree being trained on the training set.
+
 <img src = 'Screen32.png' width='700'>
+
+The diagram below shows how the Decision Tree model performs for predicting the test set values.
 
 <img src = 'Screen33.png' width='700'>
 
+The confusion matrix below summarises the above diagram.
+
 <img src = 'Screen34.png' width='350'>
 
-<img src = 'Screen35.png' width='700'>
-
-<img src = 'Screen36.png' width='700'>
-
-<img src = 'Screen37.png' width='700'> 
+From the confusion matrix, we conclude that our model has an accuracy of 91%.
