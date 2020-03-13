@@ -213,9 +213,20 @@ From the confusion matrix, we conclude that our model has an accuracy of 93%.
 
 ## Naive Bayes
 
-Naive Bayes is a probabalistic classifier that predicts which region or class a point belongs to on the basis of its probability. Naive Bayes uses Bayes theorem to decide how to classify a new point.  
+Naive Bayes is a probabalistic classifier that predicts which region or class a point belongs to on the basis of its probability. Naive Bayes uses Bayes theorem to decide how to classify a new point, the formula is give below. 
+
+<img src = 'Screen29.png' width='800'>
+
+- P(A|B) is the "Posterior Probability"
+- P(B|A) is the "Likelihood"
+- P(A) is the "Prior Probability"
+- P(B) is the "Marginal Likelihood"
+
+E.g. We have a sample of 30 people that have told us their salary, age and whether they walk or drive to work. We will observe a new point and by using the Naive Bayes classifier, we will probabilistically classify which class (predictive region) the new point belongs to. The diagram below is a scatter graph of this scenario and the new point is represented by the yellow star.
 
 <img src = 'Screen29.png' width='700'>
+
+<img src = 'Screen30.png' width='700'>
 
 **Pros of Naive Bayes**
 
@@ -232,6 +243,6 @@ Naive Bayes is a probabalistic classifier that predicts which region or class a 
 
 <img src = 'Screen27.png' width='700'>
 
-<img src = 'Screen28.png' width='700'>
+<img src = 'Screen28.png' width='350'>
 
 
