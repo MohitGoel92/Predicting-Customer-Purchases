@@ -310,3 +310,7 @@ The confusion matrix below summarises the above diagram.
 <img src = 'Screen34.png' width='350'>
 
 From the confusion matrix, we conclude that our model has an accuracy of 91%.
+
+## Random Forest
+
+
