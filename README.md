@@ -38,6 +38,14 @@ However, if we abandon the model and set all predictions to 0, we get an accurac
 
 For example, if a business sold the most luxurious products where only a small percentage of the population could afford, setting all predictions to zero would mean the business should shut down and not sell to anyone as this increases model accuracy. This case occurs when there is a very low number of observations that are positive (1 or yes) in comparison to the observations that are negative (0 or no). We should therefore always use the confusion matrix as an indicator of accuracy but apply our logic so we can interpret the confusion matrix and arrive at the correct conclusion.
 
+### Overfitting
+
+Overfitting is deemed an error in the model and occurs when the model is rigidly fit to the dataset. A typical case is usually observed when an overly complex model has been created to explain the unique behaviour of the data under study. However, in reality the data will usually have some degree of error and randomness within it. Therefore producing a model with substantial errors (overfitting) will reduce its accuracy, resulting in less predictive power. In the finance world, a common problem is making machine learning models on historic trading data that appears to predict things such as returns accurately. However, applying the same model to new data has proved the model to be an overfitted model with much lower accuracy than predicted. 
+
+The diagram below illustrates classification models that are under fit, appropriately fit and overfitted. In the third instance where the model has been overfitted, the model has been rigidly fit to accomodate unique behaviour. Although this model will yield the highest accuracy out of the three, on a dataset outside the training set the model will yield peculiar results.
+
+<img src = 'Screen_Overfitting.png' width='700'>
+
 ## Logistic Regression
 
 **Pros of Logistic Regression**
