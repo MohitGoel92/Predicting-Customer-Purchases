@@ -83,7 +83,7 @@ The diagram below illustrates how the KNN algorithm works. We have two classes (
 
 <img src = 'Screenknn.png' width='500'>
 
-**Steps to perform the KNN algorithm**
+**Steps to performing the KNN algorithm**
 
 - **Step 1:** Choose the number k of neighbours (usually k = 5)
 - **Step 2:** Take the k nearest neighbours of the new data point, according to the euclidean distance.
@@ -324,6 +324,8 @@ From the confusion matrix, we conclude that our model has an accuracy of 91%.
 The Random Forest model takes a team of Decision Trees, resulting in multiple trees coming together to make a forest.
 
 **Ensemble Learning:** When you take a multiple of the machine learning algorithm and put them all together, developing a more powerful algorithm.
+
+**Steps to performing the Random Forest algorithm**
 
 - **Step 1:** Pick at random k data points from the training set (subset of training set)
 - **Step 2:** Build the Decision Tree associated to the k data points
