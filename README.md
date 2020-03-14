@@ -356,3 +356,11 @@ The confusion matrix below summarises the above diagram.
 <img src = 'Screen42.png' width='350'>
 
 From the confusion matrix, we conclude that our model has an accuracy of 91%.
+
+### Key observations and notes
+
+- Logistic Regression and Naive Bayes are used for linear and non-linear problems respectively. These methods shine when wanting to rank the predictions by their probability. For instance, if you wish to rank your customers from the highest probability to the lowest for using an additional service/purchasing a product, this resultant prioritising will yield better results as opposed to random selection. This will be clarified further when discussing the CAP curve further down.
+- Support Vector Machine is great for showing predictive regions or segments when outputting visualisations.
+- Decision Trees should be used when requiring clear interpretation of the model results. 
+- Random Forest is ideal for high performance on linear and non-linear problems, but also when there is less of a need for interpretation.
+
