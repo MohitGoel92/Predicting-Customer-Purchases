@@ -86,9 +86,9 @@ The diagram below illustrates how the KNN algorithm works. We have two classes (
 **Steps to performing the KNN algorithm**
 
 - **Step 1:** Choose the number k of neighbours (usually k = 5)
-- **Step 2:** Take the k nearest neighbours of the new data point, according to the euclidean distance.
-- **Step 3:** Among these k neighbours, count the number of data points in each category.
-- **Step 4:** Assign the new data point to the category where you counted the most neighbours. 
+- **Step 2:** Take the k nearest neighbours of the new data point, according to the euclidean distance
+- **Step 3:** Among these k neighbours, count the number of data points in each category
+- **Step 4:** Assign the new data point to the category where you counted the most neighbours 
 
 **Pros of K Nearest Neighbours**
 
@@ -330,7 +330,7 @@ The Random Forest model takes a team of Decision Trees, resulting in multiple tr
 - **Step 1:** Pick at random k data points from the training set (subset of training set)
 - **Step 2:** Build the Decision Tree associated to the k data points
 - **Step 3:** Choose the number of trees (n_estimators) you want to build and repeat steps 1 and 2
-- **Step 4:** For a new data point, make each one of your trees predict the category (region) to which the data point belongs, and assign the new data point to the category (or class) that wins the majority vote.
+- **Step 4:** For a new data point, make each one of your trees predict the category (region) to which the data point belongs, and assign the new data point to the category (or class) that wins the majority vote
 
 **Pros of Random Forest Classifiation**
 
