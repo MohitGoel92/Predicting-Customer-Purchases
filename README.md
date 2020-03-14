@@ -320,3 +320,37 @@ The confusion matrix below summarises the above diagram.
 From the confusion matrix, we conclude that our model has an accuracy of 91%.
 
 ## Random Forest
+
+The Random Forest model takes a team of Decision Trees, resulting in multiple trees coming together to make a forest.
+
+**Ensemble Learning:** When you take a multiple of the machine learning algorithm and put them all together, developing a more powerful algorithm.
+
+**Step 1:** Pick at random k data points from the training set (subset of training set)
+**Step 2:** Build the Decision Tree associated to the k data points
+**Step 3:** Choose the number of trees (n_estimators) you want to build and repeat steps 1 and 2
+**Step 4:** For a new data point, make each one of your trees predict the category (region) to which the data point belongs, and assign the new data point to the category (or class) that wins the majority vote.
+
+**Pros of Random Forest Classifiation**
+
+- Powerful and accurate
+- Good performance on linear and non-linear problems
+
+**Cons of Random Forest Classifiation**
+
+- No interpretability
+- Overfitting can easily occur
+- Need to choose the number of trees
+
+The diagram below shows the Random Forest being trained on the training set. From inspection, we can state that the model has overfit the dataset.
+
+<img src = 'Screen40.png' width='700'>
+
+The diagram below shows how the Random Forest performs for predicting the test set values.
+
+<img src = 'Screen41.png' width='700'>
+
+The confusion matrix below summarises the above diagram.
+
+<img src = 'Screen42.png' width='350'>
+
+From the confusion matrix, we conclude that our model has an accuracy of 91%.
