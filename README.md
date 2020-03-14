@@ -2,9 +2,9 @@
 
 **Task:**
 
-We currently work within the data science team of an automotive company, who subsidises electric eco-friendly cars to companies. For one of our clients, the company has sent across employee data and whether they have put an order through. Our task is to see whether we can see any trends and produce a machine learning model that can predict whether a customer is likely to purchase the car.   
+We currently work within the data science team of an automotive company, who subsidises electric eco-friendly cars to companies. For one of our clients, the company has sent across employee data and whether they have put an order through. Our task is to determine any trends and produce a machine learning model that can predict whether a customer is likely to purchase the car.   
 
-We will be completing this business task using Logistic Regression, K Nearest Neighbours, Support Vector Machine, Naive Bayes, Classification Trees and XGBoost.
+We will be completing this business task using Logistic Regression, K Nearest Neighbours, Support Vector Machine, Naive Bayes and Classification Trees.
 
 ### Confusion Matrix
 
@@ -36,7 +36,7 @@ However, if we abandon the model and set all predictions to 0, we get an accurac
 
 <img src = 'Screen3.png' width='700'>
 
-For example, if a business sold the most luxurious products where only a small percentage of the population could afford, setting all predictions to zero would mean the business should shut down and not sell to anyone as this increases model accuracy. This case occurs when there is a very low number of observations that are positive (1 or yes) in comparison to the observations that are negative (0 or no). We should therefore always use the confusion matrix as an indicator of accuracy but apply our logic so we can interpret the confusion matrix and arrive at the correct conclusion.
+For example, if a business sold the most luxurious products that only a small percentage of the population could afford, setting all predictions to zero would mean the business should shut down and not sell to anyone as this increases model accuracy. However for the business to survive, an alternate strategy is of course required. This case occurs when there is a very low number of observations that are positive (1 or yes) in comparison to the observations that are negative (0 or no). We should therefore always use the confusion matrix as an indicator of accuracy but apply our logic so we can interpret the confusion matrix and arrive at the correct conclusion.
 
 ### Overfitting
 
@@ -85,10 +85,10 @@ The diagram below illustrates how the KNN algorithm works. We have two classes (
 
 **Steps to perform the KNN algorithm**
 
-- Step 1: Choose the number k of neighbours (usually k = 5)
-- Step 2: Take the k nearest neighbours of the new data point, according to the euclidean distance.
-- Step 3: Among these k neighbours, count the number of data points in each category.
-- Step 4: Assign the new data point to the category where you counted the most neighbours. 
+- **Step 1:** Choose the number k of neighbours (usually k = 5)
+- **Step 2:** Take the k nearest neighbours of the new data point, according to the euclidean distance.
+- **Step 3:** Among these k neighbours, count the number of data points in each category.
+- **Step 4:** Assign the new data point to the category where you counted the most neighbours. 
 
 **Pros of K Nearest Neighbours**
 
@@ -325,10 +325,10 @@ The Random Forest model takes a team of Decision Trees, resulting in multiple tr
 
 **Ensemble Learning:** When you take a multiple of the machine learning algorithm and put them all together, developing a more powerful algorithm.
 
-**Step 1:** Pick at random k data points from the training set (subset of training set)
-**Step 2:** Build the Decision Tree associated to the k data points
-**Step 3:** Choose the number of trees (n_estimators) you want to build and repeat steps 1 and 2
-**Step 4:** For a new data point, make each one of your trees predict the category (region) to which the data point belongs, and assign the new data point to the category (or class) that wins the majority vote.
+- **Step 1:** Pick at random k data points from the training set (subset of training set)
+- **Step 2:** Build the Decision Tree associated to the k data points
+- **Step 3:** Choose the number of trees (n_estimators) you want to build and repeat steps 1 and 2
+- **Step 4:** For a new data point, make each one of your trees predict the category (region) to which the data point belongs, and assign the new data point to the category (or class) that wins the majority vote.
 
 **Pros of Random Forest Classifiation**
 
